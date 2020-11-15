@@ -15,6 +15,14 @@ Doc string [PEP 257](https://www.python.org/dev/peps/pep-0257/)
 
 ##### World cloud should reflect the name or central theme of each book
 
+Philosopher's Stone (1997)
+
+![https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp1.png]
+
+Chamber of Secrets (1998)
+
+![https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp2.png]
+
 ## Glossary of 7 books
 
 ##### Name of each book and cover image
