@@ -15,6 +15,8 @@ Doc string [PEP 257](https://www.python.org/dev/peps/pep-0257/)
 
 ##### World cloud should reflect the name or central theme of each book
 
+![Combined gif](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/hp_world.gif)
+
 Philosopher's Stone (1997)
 
 ![Book 1](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp1.png)
