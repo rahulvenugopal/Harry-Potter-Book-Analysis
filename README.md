@@ -17,33 +17,9 @@ Doc string [PEP 257](https://www.python.org/dev/peps/pep-0257/)
 
 ![Combined gif](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/hp_world.gif)
 
-Philosopher's Stone (1997)
+Philosopher's Stone (1997) | Chamber of Secrets (1998) | Prisoner of Azkaban (1999)
 
-![Book 1](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp1.png)
-
-Chamber of Secrets (1998)
-
-![Book 2](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp2.png)
-
-Prisoner of Azkaban (1999)
-
-![Book 3](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp3.png)
-
-Goblet of Fire (2000)
-
-![Book 4](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp4.png)
-
-Order of the Phoenix (2003)
-
-![Book 5](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp5.png)
-
-Half-Blood Prince (2005)
-
-![Book 6](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp6.png)
-
-Deathly Hallows (2007)
-
-![Book 7](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/viz_results/hp7.png)
+Goblet of Fire (2000) | Order of the Phoenix (2003) | Half-Blood Prince (2005) | Deathly Hallows (2007)
 
 ## Glossary of 7 books
 
