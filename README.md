@@ -50,3 +50,4 @@ Color palette which captures HP movies, four houses etc.
   - Wordcloud in an image background
 - [HarryPotter-Sentiment-Contribution](https://github.com/adityaab14/HarryPotter-Sentiment-Contribution)
   - Sentiment analysis using R
+- Spell the spells in [Tableau](https://public.tableau.com/pt-br/gallery/harry-potter-spells-complete-list?tab=featured&type=featured)
