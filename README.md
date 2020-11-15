@@ -45,7 +45,9 @@ Deathly Hallows (2007)
 
 ## Glossary of 7 books
 
-##### Name of each book and cover image
+##### Name of each book and cover image made of word cloud
+
+![Cover](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/gridplot/HP_Grid.jpg)
 
 ## How big is Harry Potter verse
 
