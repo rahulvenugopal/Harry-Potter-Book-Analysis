@@ -28,6 +28,7 @@ This repo's goal is to learn some common useful NLP (Natural Language Processing
 ## Harry potter colour palette
 
 Color palette which captures HP movies, four houses etc.
+[harrypotter](https://github.com/aljrico/harrypotter) package in R and documentation [here](https://cran.r-project.org/web/packages/harrypotter/harrypotter.pdf)
 
 ## Trivia
 
@@ -43,3 +44,9 @@ Color palette which captures HP movies, four houses etc.
 - [Harry-Potter-Viz](https://github.com/heatherjcohen/Harry-Potter-Viz)
   - Cool wordcloud viz
   - Colours are part of clouds which are themed with images
+- [potter_spells](https://github.com/Vibhu-Agarwal/potter_spells)
+  - A python package to list all HP spells
+- [HP-text-mining](https://github.com/ErikaJacobs/Harry-Potter-Text-Mining)
+  - Wordcloud in an image background
+- [HarryPotter-Sentiment-Contribution](https://github.com/adityaab14/HarryPotter-Sentiment-Contribution)
+  - Sentiment analysis using R
