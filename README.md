@@ -37,9 +37,9 @@ Color palette which captures HP movies, four houses etc.
 #### References
 
 - [VisuProject_HarryPotterSpells](https://github.com/Graunarmin/VisuProject_HarryPotterSpells)
-  Output is an interactive html
-  Spells are ordered in appearance order. Size of bubble depends of number of times spell was used
-  Connection via arcs
+  - Output is an interactive html
+  - Spells are ordered in appearance order. Size of bubble depends of number of times spell was used
+    Connection via arcs
 - [Harry-Potter-Viz](https://github.com/heatherjcohen/Harry-Potter-Viz)
-  Cool wordcloud viz
-  Colours are part of clouds which are themed with images
+  - Cool wordcloud viz
+  - Colours are part of clouds which are themed with images
