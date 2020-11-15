@@ -5,6 +5,10 @@ I just finished the fifth book and just started 6th book :books:
 
 This repo's goal is to learn some common useful NLP (Natural Language Processing) methods, graph theory concepts and cool visualisations
 
+Another side goal is to document the code as close to [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+
+Doc string [PEP 257](https://www.python.org/dev/peps/pep-0257/)
+
 ---
 
 ## Word clouds
