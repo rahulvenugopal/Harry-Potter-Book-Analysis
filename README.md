@@ -30,6 +30,9 @@ Goblet of Fire (2000) | Order of the Phoenix (2003) | Half-Blood Prince (2005) |
 ## How big is Harry Potter verse
 
 ##### Number of chapters in each book and total words in each book
+
+![CoverImage](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/HowBigisHP.png)
+
 Code can be seen [here](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/code/harry_words.R)
 
 ##### Number of unique words in each book
