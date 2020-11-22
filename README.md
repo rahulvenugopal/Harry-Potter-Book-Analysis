@@ -37,6 +37,8 @@ Code can be seen [here](https://github.com/rahulvenugopal/Harry-Potter-Book-Anal
 
 Note : Add one small image theming each book, book name, update font to Lumos or HP font
 
+Also do annotations, smallest chapter, largest chapter, smallest and largest book
+
 ##### Number of unique words in each book
 
 ##### Number of unique characters in each book
