@@ -35,6 +35,8 @@ Goblet of Fire (2000) | Order of the Phoenix (2003) | Half-Blood Prince (2005) |
 
 Code can be seen [here](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/code/harry_words.R) and PDF image [here](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/HowBigisHP.pdf)
 
+Note : Add one small image theming each book, book name, update font to Lumos or HP font
+
 ##### Number of unique words in each book
 
 ##### Number of unique characters in each book
