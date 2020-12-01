@@ -52,6 +52,8 @@ Yet to incorporate the interactive bits!
 - x-axis is location within the book (All books were merged as a single text)
 - y-axis shows the spell and each dot is coloured coding the book in which it appears
 - Failed to colour the y-axis text based on `Type` of spell (**Charm, Curse or Spell**)
+  Have to figure out a way to assign axis text color based on a variable and circumvent the issue below
+  ![Error](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/error.png)
 - Learned ggplot objects in some detail. Thanks to [George Karamanis](https://github.com/gkaramanis) 
 
 ##### Number of unique words in each book
