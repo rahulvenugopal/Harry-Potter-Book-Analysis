@@ -39,6 +39,21 @@ Note : Add one small image theming each book, book name, update font to Lumos or
 
 Also do annotations, smallest chapter, largest chapter, smallest and largest book
 
+## Spell analysis in HP series
+
+This was motivated by the amazing [visualisation](https://public.tableau.com/en-us/gallery/spells-harry-potter) in Tableau by Skyler Johnson
+
+Data was exported from Tableau and cleaned to tidy format
+
+Yet to incorporate the interactive bits!
+
+![CoverImagefromR](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/HP_spello.png)
+
+- x-axis is location within the book (All books were merged as a single text)
+- y-axis shows the spell and each dot is coloured coding the book in which it appears
+- Failed to colour the y-axis text based on `Type` of spell (**Charm, Curse or Spell**)
+- Learned ggplot objects in some detail. Thanks to [George Karamanis](https://github.com/gkaramanis) 
+
 ##### Number of unique words in each book
 
 ##### Number of unique characters in each book
