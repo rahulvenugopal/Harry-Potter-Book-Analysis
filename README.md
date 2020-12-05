@@ -55,6 +55,7 @@ Yet to incorporate the interactive bits!
   Have to figure out a way to assign axis text color based on a variable and circumvent the issue below
   ![Error](https://github.com/rahulvenugopal/Harry-Potter-Book-Analysis/blob/main/images/error.png)
 - Learned ggplot objects in some detail. Thanks to [George Karamanis](https://github.com/gkaramanis) 
+- Twitter folks suggested to hide y-axis text and use `ggtext` to control aes/color of y-axis text
 
 ##### Number of unique words in each book
 
