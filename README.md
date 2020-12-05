@@ -1,7 +1,7 @@
 # Harry Potter Book Analysis
 JK Rowling wrote a series of 7 fantasy novels which took the world by storm :tornado:
 
-~I just finished the fifth book and just started 6th book~ I completed reading all 7 books and 8 movies :books:
+~I just finished the fifth book and just started 6th book~ I completed reading all 7 books :books: and 8 movies :movie_camera:
 
 This repo's goal is to learn some common useful NLP (Natural Language Processing) methods, graph theory concepts and cool visualisations
 
