@@ -2,12 +2,14 @@
 # Many thanks to Cedric Scherer for his tidy tuesday viz
 # This plot is inspired and code help is from his IMDB dataviz
 # https://github.com/Z3tt/TidyTuesday/blob/master/R/2020_12_TheOffice.Rmd
+# author @ Rahul Venugopal
 
 # Loading packages
 library(tidyverse)
 library(cowplot)
 library(showtext)
 library(png)
+library(ggblur)
 
 ## ggplot theme
 theme_set(theme_minimal(base_family = "Roboto Mono"))
@@ -35,7 +37,7 @@ theme_update(plot.background = element_rect(fill = "#fafaf5", color = "#fafaf5")
 # hex to RGB and color viewer
 # https://www.rapidtables.com/convert/color/hex-to-rgb.html
 
-df_harry <- readr::read_csv('Harry-Potter-Chapter-Lengths.csv')
+df_harry <- readr::read_csv('data/Harry-Potter-Chapter-Lengths.csv')
 
 df_harry_avg <-
   df_harry %>% 
@@ -93,7 +95,7 @@ p <- df_harry_avg %>%
                 color = after_scale(colorspace::darken(color, .2))),
             size = 2.5) +
   
-  geom_point(aes(color = Book, shape = Book)) +
+  geom_point_blur(aes(color = Book, shape = Book), blur_size = 0.5) +
   scale_shape_manual(values=c(16,16,16,16,16,16,16)) + 
 
   
@@ -107,9 +109,9 @@ p <- df_harry_avg %>%
              fill = NA,
              family = "Special Elite",
              fontface = "bold",
-             label.padding = unit(.2, "lines"),
-             label.r = unit(.25, "lines"),
-             label.size = .5) +
+             label.padding = unit(.2, "lines"), # amount of padding
+             label.r = unit(.25, "lines"), # radius of rounder corner
+             label.size = 0.5) + # size of the border
   
   scale_x_continuous(expand = c(.015, .015)) +
   
@@ -124,15 +126,17 @@ p <- df_harry_avg %>%
   #                               "#7890A8", "#C7B0C1", "#B5C9C9"),
   #                    guide = F) +
 
-  labs(x = NULL, caption = "Visualization by Rahul Venugopal  •  Harrypotter verse")
+  labs(x = NULL,
+       y = "Total words count",
+       caption = "Visualization by Rahul Venugopal  •  Harrypotter verse")
 
-logo <- readPNG('D:/Codebase/Harry-Potter-Book-Analysis/images/hp_logo.png')
+logo <- readPNG('images/hp_logo.png')
 
 ggdraw(p) +
-  draw_image(logo, x = -.35, y = -.34, scale = .12)
+  draw_image(logo, x = -.375, y = -.34, scale = 0.25)
 
 ggsave(here::here("HowBigisHP.pdf"), 
-       width = 15, height = 9, device = cairo_pdf)
+       width = 18, height = 9, device = cairo_pdf)
 
 # Note embedding fonts
 # Locate ghostscript .exe
