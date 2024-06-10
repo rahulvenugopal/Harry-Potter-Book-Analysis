@@ -18,7 +18,7 @@ from plotnine import (
     element_blank,
     theme,
     element_text,
-    theme_set
+    scale_y_continuous
 )
 
 
@@ -53,7 +53,7 @@ ggplot()+ geom_segment(chapters_per_book,
                  y = "Word Counts",
                  yend = "Word Counts",
                  color = "Book",
-                 fill = after_scale('color'), size=0.5))+ theme_classic() + theme(axis_title_x = element_blank(),
+                 fill = after_scale('color'), size=0.5))+ theme_classic() + scale_y_continuous()+ theme(axis_title_x = element_blank(),
 axis_text_x = element_blank(),
 axis_ticks_x = element_blank(),
 axis_title_y = element_text(size = 24),
